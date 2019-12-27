@@ -38,7 +38,6 @@ end
 
 
 def hit?(deal_card)
-  initial_round
  prompt_user
  get_user_input
  return deal_card
