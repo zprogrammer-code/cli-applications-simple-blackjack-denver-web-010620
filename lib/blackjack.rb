@@ -63,8 +63,8 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
- while deal_card < 21 
+def runner(total)
+ while total < 21 
   welcome
   initial_round
   hit?
