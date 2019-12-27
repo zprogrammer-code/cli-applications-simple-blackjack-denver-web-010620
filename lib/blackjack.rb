@@ -66,10 +66,11 @@ end
 def runner
   total = initial_round
   welcome
-  #while total < 21
+  while total < 21
   hit?(total)
   display_card_total(total)
-#end
+  total += 1
+end
 end_game
 end
     
