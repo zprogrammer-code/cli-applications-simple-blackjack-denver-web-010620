@@ -45,7 +45,7 @@ def hit?(deal_card)
 end
 
 def invalid_command
-  puts "please enter a valid command" 
+  puts "Please enter a valid command" 
 end
 
 #####################################################
