@@ -63,7 +63,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(total)
   total = initial_round
   welcome
   while total < 21
