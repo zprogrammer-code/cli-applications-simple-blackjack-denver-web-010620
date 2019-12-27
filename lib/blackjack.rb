@@ -18,7 +18,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets
+  gets.chomp
    
 end
 
@@ -40,14 +40,16 @@ end
 def hit?(total)
 prompt_user
 input = get_user_input
-
-
+until input == 'h' or input == 's'
+ invalid_command
+  prompt_user
+  input = get_user_input
+end
 if input == 'h'
  total += deal_card
  else if input == 's'
   return total
  end
-   return invalid_command
  
  return total
  end
