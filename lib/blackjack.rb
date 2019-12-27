@@ -44,7 +44,6 @@ def hit?(deal_card)
 if h
   deal_card
 else if s 
-end
  return deal_card
 end
 
