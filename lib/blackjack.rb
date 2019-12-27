@@ -44,7 +44,6 @@ input = get_user_input
  input
 if input == 'h'
  total += deal_card
- binding.pry
  else if input == 's'
   return deal_card
  else 
