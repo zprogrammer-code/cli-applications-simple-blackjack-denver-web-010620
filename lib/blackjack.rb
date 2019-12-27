@@ -43,7 +43,6 @@ def hit?(deal_card)
  get_user_input
 if initial_round
 deal_card
- display_card_total(deal_card)
  
  end
 end
