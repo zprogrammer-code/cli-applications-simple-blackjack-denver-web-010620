@@ -26,7 +26,8 @@ def end_game(total)
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
-
+ if 35
+ end
 
 def initial_round
   total = deal_card
