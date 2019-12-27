@@ -41,11 +41,10 @@ def hit?(deal_card)
  deal_card
  prompt_user
  get_user_input
-if get_user_input == h
-  deal_card
-else if s 
+if initial_round
+deal_card
  display_card_total(deal_card)
- end
+ 
  end
 end
 
