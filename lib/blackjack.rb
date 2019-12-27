@@ -46,6 +46,7 @@ if h
 else if s 
  display_card_total(deal_card)
  end
+ end
 end
 
 def invalid_command
