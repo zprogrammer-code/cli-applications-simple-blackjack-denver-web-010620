@@ -64,7 +64,7 @@ end
 #####################################################
 
 def runner
- while total < 21 
+ while deal_card < 21 
   welcome
   initial_round
   hit?
