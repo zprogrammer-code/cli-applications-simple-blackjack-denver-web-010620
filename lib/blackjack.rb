@@ -43,8 +43,10 @@ total = deal_card
  get_user_input
 if 'h'
  total += deal_card
- else
-   return total
+ else if 's'
+   return deal_card
+ else return invalid_command
+ end
  end
 end
 
