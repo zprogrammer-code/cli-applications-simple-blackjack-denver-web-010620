@@ -44,7 +44,7 @@ input = get_user_input
  input
 if input == 'h'
  total += deal_card
- else if 's'
+ else if input == 's'
    initial_round
  else 
    return invalid_command
