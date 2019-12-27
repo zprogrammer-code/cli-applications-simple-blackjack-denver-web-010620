@@ -41,7 +41,7 @@ def hit?(deal_card)
 
  prompt_user
  get_user_input
-if h
+if 'h'
  deal_card
  else
    return deal_card
