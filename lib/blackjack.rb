@@ -41,6 +41,7 @@ def hit?(deal_card)
  prompt_user
  get_user_input
  if 35
+ end
  return deal_card
 end
 
