@@ -45,7 +45,8 @@ if 'h'
  total += deal_card
  else if 's'
    deal_card
- else return invalid_command
+ else 
+   return invalid_command
  end
  end
 end
