@@ -44,7 +44,7 @@ def hit?(deal_card)
 if h
   deal_card
 else if s 
- return deal_card
+ display_card_total(deal_card)
  end
 end
 
