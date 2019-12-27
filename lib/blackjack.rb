@@ -37,7 +37,7 @@ def initial_round
 end
 
 
-def hit?(initial_round)
+def hit?(prompt_user)
 total = deal_card
 input = get_user_input
  prompt_user
