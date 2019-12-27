@@ -45,6 +45,7 @@ if h
   deal_card
 else if s 
  return deal_card
+ end
 end
 
 def invalid_command
