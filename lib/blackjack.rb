@@ -42,7 +42,6 @@ def hit?(deal_card)
  prompt_user
  get_user_input
 
- end
 end
 
 def invalid_command
