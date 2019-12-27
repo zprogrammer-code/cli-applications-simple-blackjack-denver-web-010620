@@ -38,11 +38,11 @@ end
 
 
 def hit?(deal_card)
-
+total = deal_card
  prompt_user
  get_user_input
 if 'h'
- deal_card
+ total += deal_card
  else
    return deal_card
  end
