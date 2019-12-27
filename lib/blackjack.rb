@@ -40,6 +40,7 @@ end
 def hit?(deal_card)
  prompt_user
  get_user_input
+ i
  return deal_card
 end
 
