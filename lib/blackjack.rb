@@ -49,6 +49,7 @@ if input == 'h'
  else 
    return invalid_command
  end
+ return total
  end
 end
 
