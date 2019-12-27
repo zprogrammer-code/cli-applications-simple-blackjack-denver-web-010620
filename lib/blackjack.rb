@@ -70,7 +70,7 @@ def runner
   hit?(total)
   display_card_total(total)
   total += deal_card
-end
 end_game
+end
 end
     
