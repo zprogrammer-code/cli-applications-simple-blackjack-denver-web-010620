@@ -44,7 +44,7 @@ total = deal_card
 if 'h'
  total += deal_card
  else
-   return deal_card
+   return total
  end
 end
 
