@@ -26,9 +26,6 @@ def end_game(total)
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
- if 35
- end
-
 def initial_round
   total = deal_card
   if deal_card < 21
@@ -41,9 +38,13 @@ end
 
 
 def hit?(deal_card)
+ deal_card
  prompt_user
  get_user_input
-
+if h
+  deal_card
+else if s 
+end
  return deal_card
 end
 
